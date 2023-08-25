@@ -1,10 +1,10 @@
+import React from 'react';
 import './ExpenseItem.css';
 import ExpenseDate from './ExpenseDate';
-import Card from './Card';
+import Card from '../UI/Card';
+
+
  function ExpenseItem(props) {
-     /* const expenseDate=title
-     const expenseTitle=amount
-     const expenseAmount=date */
     return (
         <Card className="expense-item">
             <ExpenseDate date={props.date} />
